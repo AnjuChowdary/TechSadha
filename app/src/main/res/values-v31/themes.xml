@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TechSadha.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/yellow_500</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/tc_black</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/yellow_500</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.TechSadha</item>
+    </style>
+</resources>
