@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //To show splash screen for sometime, replace this with any other calls
         Handler().postDelayed({
             isReady = true
         }, 6000)
