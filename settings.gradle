@@ -10,6 +10,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url("https://ajduties.jfrog.io/artifactory/aj-network-service/")
+            credentials {
+                username = "anonymous"
+                password = ""
+            }
+        }
     }
 }
 rootProject.name = "TechSadha"

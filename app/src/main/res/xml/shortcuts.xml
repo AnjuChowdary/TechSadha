@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/tc_black"
+        android:shortcutShortLabel="@string/today"
+        android:shortcutLongLabel="@string/app_name"
+        android:shortcutDisabledMessage="@string/disabled">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.ae.techsadha"
+            android:targetClass="com.ae.techsadha.MainActivity"/>
+
+        <categories android:name="android.shortcut.conversation"/>
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE"/>
+    </shortcut>
+</shortcuts>
